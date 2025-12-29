@@ -1,0 +1,45 @@
+fid,species,phylum,netmoss_score
+AJ305238, s__Clostridium_A_51961 leptum, p__Bacillota_A_368345,0.347357139317081
+AY305310, s__Agathobacter faecis, p__Bacillota_A_368345,0.710832422942347
+GB-GCA-015554585.1-JADNIT010000076.1, s__Agathobacter rectalis, p__Bacillota_A_368345,1
+GB-GCA-900066275.1-FMFG01000089.1, s__Faecalibacterium butyricigenerans, p__Bacillota_A_368345,0.516079223068769
+GB-GCA-902646515.1-CACRCQ010000098.1, s__Alistipes_A_871400 putredinis, p__Bacteroidota,0.702931230672246
+RS-GCF-000702865.1-NZ-JNKM01000001.1, s__Bifidobacterium faecale, p__Actinomycetota,0.655143612388521
+RS-GCF-003461005.1-NZ-QTWG01000138.1, s__Mediterraneibacter_A_155507 faecis, p__Bacillota_A_368345,0.503984060609244
+RS-GCF-003481175.1-NZ-QUKF01000070.1, s__Fusicatenibacter saccharivorans, p__Bacillota_A_368345,0.438157944226757
+RS-GCF-005844755.1-NZ-SPHB01000048.1, s__, p__Bacteroidota,0.189767696511092
+RS-GCF-018784445.1-NZ-WQOH01000081.1, s__, p__Bacillota_A_368345,0.728705912102022
+RS-GCF-018784865.1-NZ-WQPA01000083.1, s__Dorea_A longicatena, p__Bacillota_A_368345,0.588424733386438
+RS-GCF-019130915.1-NZ-JAHOLF010000125.1, s__Phocaeicola_A vulgatus, p__Bacteroidota,0.774453978625941
+RS-GCF-900217715.1-NZ-OBMS01000001.1, s__Bacteroides_H_857956 uniformis, p__Bacteroidota,0.586024162151581
+RS-GCF-900291485.1-NZ-OLKO01000008.1, s__Ruminococcus_E bromii_B, p__Bacillota_A_368345,0.467739511763895
+G000431455, s__Parasutterella excrementihominis, p__Pseudomonadota,0.474384659037987
+G900545585, s__Vescimonas sp900545585, p__Bacillota_A_368345,0.711175661760007
+GB-GCA-000980215.1-LARH01000082.1, s__Agathobacter rectalis, p__Bacillota_A_368345,0.747047046268315
+GB-GCA-000980425.1-LARJ01000053.1, s__Anaerostipes hadrus, p__Bacillota_A_368345,0.586691929808944
+MJ006-1-barcode37-umi101248bins-ubs-4, s__, p__Bacillota_A_368345,1
+MJ006-2-barcode51-umi185356bins-ubs-3, s__, p__Bacillota_A_368345,0.716294907675226
+RS-GCF-003473495.1-NZ-QUCI01000034.1, s__Blautia_A_141781 wexlerae, p__Bacillota_A_368345,0.744818709652211
+RS-GCF-013302845.1-NZ-JAAIQT010000087.1, s__Anaerostipes hadrus, p__Bacillota_A_368345,0.599156585841963
+MJ006-1-barcode28-umi157746bins-ubs-3, s__Gemmiger_A_73129 qucibialis, p__Bacillota_A_368345,0.644342500132867
+HM037997, s__Sutterella wadsworthensis_A_565869, p__Pseudomonadota,0.297492157694359
+MJ006-1-barcode37-umi141792bins-ubs-3, s__Faecalibacterium prausnitzii, p__Bacillota_A_368345,0.840492876141516
+MJ006-1-barcode39-umi95963bins-ubs-4, s__Faecalibacterium prausnitzii, p__Bacillota_A_368345,0.326761245355677
+MJ006-2-barcode65-umi152818bins-ubs-3, s__, p__Bacillota_A_368345,0.135888462349812
+MJ006-2-barcode69-umi173364bins-ubs-3, s__, p__Bacteroidota,0.648812411649944
+RS-GCF-902497365.1-NZ-LR699993.1, s__Faecalibacterium duncaniae, p__Bacillota_A_368345,0.604404099798503
+MJ006-2-barcode53-umi150828bins-ubs-3, s__Faecalibacterium prausnitzii, p__Bacillota_A_368345,0.456118635561355
+MJ006-1-barcode45-umi215926bins-ubs-3, s__Faecalibacterium prausnitzii, p__Bacillota_A_368345,1
+MJ006-2-barcode53-umi132850bins-ubs-4, s__Faecalibacterium prausnitzii, p__Bacillota_A_368345,0.312705631972541
+MJ006-1-barcode43-umi102585bins-ubs-4, s__Bacteroides_H_857956 xylanisolvens, p__Bacteroidota,0.0639832644079402
+MJ006-2-barcode65-umi112744bins-ubs-6, s__Parabacteroides_B_862066 distasonis, p__Bacteroidota,0.442399474999144
+MJ006-1-barcode39-umi59141bins-ubs-6, s__, p__Pseudomonadota,1
+G000010425, s__Bifidobacterium adolescentis, p__Actinomycetota,0.650930634240611
+MJ006-2-barcode51-umi107579bins-ubs-5, s__, p__Bacillota_A_368345,0.783112346144325
+MJ006-2-barcode59-umi224357bins-ubs-3, s__Roseburia_A_166204 intestinalis, p__Bacillota_A_368345,0.322304102691163
+RS-GCF-013301525.1-NZ-JAAIOL010000051.1, s__, p__Bacillota_A_368345,0.748542772699844
+MJ006-1-barcode28-umi99869bins-ubs-3, s__, p__Bacillota_A_368345,0.311832634042848
+MJ010-1-barcode30-umi141257bins-ubs-4, s__Faecalibacterium prausnitzii, p__Bacillota_A_368345,0.863519505585806
+MJ006-2-barcode53-umi70825bins-ubs-6, s__Phascolarctobacterium_A_39470 succinatutens_B, p__Bacillota_C,0.398581229728668
+MJ006-2-barcode53-umi182866bins-ubs-3, s__Alistipes_A_871400 finegoldii, p__Bacteroidota,1
+U25952, s__Bifidobacterium bifidum, p__Actinomycetota,0.311266301544546
