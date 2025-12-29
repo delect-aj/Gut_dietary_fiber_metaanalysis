@@ -1,0 +1,511 @@
+[1] ‘1.16.0’
+[1] "Fri Oct 24 09:43:10 2025 Filtering..."
+[1] "Fri Oct 24 09:45:24 2025 Building forward error model..."
+101022012 total bases in 801762 reads from 20 samples will be used for learning the error rates.
+[1] "Fri Oct 24 09:48:59 2025 Plotting error models..."
+null device 
+          1 
+Processing: SRR16937037 
+Sample 1 - 53813 reads in 13498 unique sequences.
+Processing: SRR16937038 
+Sample 1 - 45669 reads in 16996 unique sequences.
+Processing: SRR16937039 
+Sample 1 - 39683 reads in 13961 unique sequences.
+Processing: SRR16937040 
+Sample 1 - 47909 reads in 16958 unique sequences.
+Processing: SRR16937041 
+Sample 1 - 34226 reads in 12811 unique sequences.
+Processing: SRR16937042 
+Sample 1 - 30474 reads in 10724 unique sequences.
+Processing: SRR16937043 
+Sample 1 - 53069 reads in 17395 unique sequences.
+Processing: SRR16937044 
+Sample 1 - 49428 reads in 16245 unique sequences.
+Processing: SRR16937045 
+Sample 1 - 47300 reads in 15713 unique sequences.
+Processing: SRR16937046 
+Sample 1 - 56828 reads in 17798 unique sequences.
+Processing: SRR16937047 
+Sample 1 - 58489 reads in 17367 unique sequences.
+Processing: SRR16937048 
+Sample 1 - 31100 reads in 11288 unique sequences.
+Processing: SRR16937049 
+Sample 1 - 29807 reads in 10483 unique sequences.
+Processing: SRR16937050 
+Sample 1 - 40197 reads in 13607 unique sequences.
+Processing: SRR16937051 
+Sample 1 - 25221 reads in 8405 unique sequences.
+Processing: SRR16937052 
+Sample 1 - 31484 reads in 11028 unique sequences.
+Processing: SRR16937053 
+Sample 1 - 34609 reads in 12554 unique sequences.
+Processing: SRR16937054 
+Sample 1 - 18443 reads in 7776 unique sequences.
+Processing: SRR16937055 
+Sample 1 - 50387 reads in 14986 unique sequences.
+Processing: SRR16937056 
+Sample 1 - 23626 reads in 7711 unique sequences.
+Processing: SRR16937057 
+Sample 1 - 93957 reads in 20993 unique sequences.
+Processing: SRR16937058 
+Sample 1 - 47075 reads in 14723 unique sequences.
+Processing: SRR16937059 
+Sample 1 - 81711 reads in 15694 unique sequences.
+Processing: SRR16937060 
+Sample 1 - 52599 reads in 16875 unique sequences.
+Processing: SRR16937061 
+Sample 1 - 49066 reads in 14701 unique sequences.
+Processing: SRR16937062 
+Sample 1 - 35909 reads in 11245 unique sequences.
+Processing: SRR16937063 
+Sample 1 - 46395 reads in 14472 unique sequences.
+Processing: SRR16937064 
+Sample 1 - 63787 reads in 20787 unique sequences.
+Processing: SRR16937065 
+Sample 1 - 25956 reads in 9214 unique sequences.
+Processing: SRR16937066 
+Sample 1 - 62860 reads in 20834 unique sequences.
+Processing: SRR16937067 
+Sample 1 - 39066 reads in 13167 unique sequences.
+Processing: SRR16937068 
+Sample 1 - 54983 reads in 16009 unique sequences.
+Processing: SRR16937069 
+Sample 1 - 77434 reads in 21851 unique sequences.
+Processing: SRR16937070 
+Sample 1 - 56892 reads in 17477 unique sequences.
+Processing: SRR16937071 
+Sample 1 - 26465 reads in 8729 unique sequences.
+Processing: SRR16937072 
+Sample 1 - 40544 reads in 15194 unique sequences.
+Processing: SRR16937073 
+Sample 1 - 51767 reads in 15942 unique sequences.
+Processing: SRR16937074 
+Sample 1 - 67770 reads in 17003 unique sequences.
+Processing: SRR16937075 
+Sample 1 - 28030 reads in 9221 unique sequences.
+Processing: SRR16937076 
+Sample 1 - 60103 reads in 18163 unique sequences.
+Processing: SRR16937077 
+Sample 1 - 49986 reads in 14801 unique sequences.
+Processing: SRR16937078 
+Sample 1 - 48485 reads in 16108 unique sequences.
+Processing: SRR16937079 
+Sample 1 - 30473 reads in 10320 unique sequences.
+Processing: SRR16937080 
+Sample 1 - 46501 reads in 11368 unique sequences.
+Processing: SRR16937081 
+Sample 1 - 30367 reads in 10538 unique sequences.
+Processing: SRR16937082 
+Sample 1 - 40303 reads in 12415 unique sequences.
+Processing: SRR16937083 
+Sample 1 - 43641 reads in 13752 unique sequences.
+Processing: SRR16937084 
+Sample 1 - 60295 reads in 17817 unique sequences.
+Processing: SRR16937085 
+Sample 1 - 56081 reads in 18522 unique sequences.
+Processing: SRR16937086 
+Sample 1 - 58529 reads in 16626 unique sequences.
+Processing: SRR16937087 
+Sample 1 - 29615 reads in 7231 unique sequences.
+Processing: SRR16937088 
+Sample 1 - 45941 reads in 15784 unique sequences.
+Processing: SRR16937089 
+Sample 1 - 42969 reads in 12483 unique sequences.
+Processing: SRR16937090 
+Sample 1 - 37593 reads in 9280 unique sequences.
+Processing: SRR16937091 
+Sample 1 - 45998 reads in 10387 unique sequences.
+Processing: SRR16937092 
+Sample 1 - 41231 reads in 9033 unique sequences.
+Processing: SRR16937093 
+Sample 1 - 44864 reads in 13560 unique sequences.
+Processing: SRR16937094 
+Sample 1 - 62991 reads in 20053 unique sequences.
+Processing: SRR16937095 
+Sample 1 - 57655 reads in 18817 unique sequences.
+Processing: SRR16937096 
+Sample 1 - 69831 reads in 18087 unique sequences.
+Processing: SRR16937097 
+Sample 1 - 24097 reads in 8090 unique sequences.
+Processing: SRR16937098 
+Sample 1 - 49766 reads in 14934 unique sequences.
+Processing: SRR16937099 
+Sample 1 - 34183 reads in 10815 unique sequences.
+Processing: SRR16937100 
+Sample 1 - 54262 reads in 12781 unique sequences.
+Processing: SRR16937101 
+Sample 1 - 33036 reads in 10976 unique sequences.
+Processing: SRR16937102 
+Sample 1 - 46860 reads in 15930 unique sequences.
+Processing: SRR16937103 
+Sample 1 - 43760 reads in 13598 unique sequences.
+Processing: SRR16937104 
+Sample 1 - 47271 reads in 15818 unique sequences.
+Processing: SRR16937105 
+Sample 1 - 57951 reads in 17668 unique sequences.
+Processing: SRR16937106 
+Sample 1 - 61803 reads in 19145 unique sequences.
+Processing: SRR16937107 
+Sample 1 - 22180 reads in 8597 unique sequences.
+Processing: SRR16937108 
+Sample 1 - 60736 reads in 18291 unique sequences.
+Processing: SRR16937109 
+Sample 1 - 51289 reads in 17074 unique sequences.
+Processing: SRR16937110 
+Sample 1 - 40983 reads in 14864 unique sequences.
+Processing: SRR16937111 
+Sample 1 - 57838 reads in 19913 unique sequences.
+Processing: SRR16937112 
+Sample 1 - 62976 reads in 16640 unique sequences.
+Processing: SRR16937113 
+Sample 1 - 43037 reads in 12878 unique sequences.
+Processing: SRR16937114 
+Sample 1 - 50752 reads in 16777 unique sequences.
+Processing: SRR16937115 
+Sample 1 - 28213 reads in 7282 unique sequences.
+Processing: SRR16937116 
+Sample 1 - 18715 reads in 6879 unique sequences.
+Processing: SRR16937117 
+Sample 1 - 24477 reads in 9345 unique sequences.
+Processing: SRR16937118 
+Sample 1 - 41546 reads in 12580 unique sequences.
+Processing: SRR16937119 
+Sample 1 - 122268 reads in 27798 unique sequences.
+Processing: SRR16937120 
+Sample 1 - 113551 reads in 24771 unique sequences.
+Processing: SRR16937121 
+Sample 1 - 82371 reads in 20088 unique sequences.
+Processing: SRR16937122 
+Sample 1 - 94484 reads in 23725 unique sequences.
+Processing: SRR16937123 
+Sample 1 - 105843 reads in 28004 unique sequences.
+Processing: SRR16937124 
+Sample 1 - 126200 reads in 29848 unique sequences.
+Processing: SRR16937125 
+Sample 1 - 124306 reads in 25810 unique sequences.
+Processing: SRR16937126 
+Sample 1 - 119888 reads in 25103 unique sequences.
+Processing: SRR16937127 
+Sample 1 - 77155 reads in 20629 unique sequences.
+Processing: SRR16937128 
+Sample 1 - 32932 reads in 11172 unique sequences.
+Processing: SRR16937129 
+Sample 1 - 71819 reads in 14412 unique sequences.
+Processing: SRR16937130 
+Sample 1 - 130485 reads in 25305 unique sequences.
+Processing: SRR16937131 
+Sample 1 - 183488 reads in 26964 unique sequences.
+Processing: SRR16937132 
+Sample 1 - 163979 reads in 35435 unique sequences.
+Processing: SRR16937133 
+Sample 1 - 145086 reads in 27636 unique sequences.
+Processing: SRR16937134 
+Sample 1 - 131816 reads in 27656 unique sequences.
+Processing: SRR16937135 
+Sample 1 - 109150 reads in 26147 unique sequences.
+Processing: SRR16937136 
+Sample 1 - 98778 reads in 23630 unique sequences.
+Processing: SRR16937137 
+Sample 1 - 82517 reads in 22173 unique sequences.
+Processing: SRR16937138 
+Sample 1 - 53825 reads in 14040 unique sequences.
+Processing: SRR16937139 
+Sample 1 - 21402 reads in 7386 unique sequences.
+Processing: SRR16937140 
+Sample 1 - 68975 reads in 17385 unique sequences.
+Processing: SRR16937141 
+Sample 1 - 85132 reads in 16467 unique sequences.
+Processing: SRR16937142 
+Sample 1 - 127904 reads in 28731 unique sequences.
+Processing: SRR16937143 
+Sample 1 - 7337 reads in 2431 unique sequences.
+Processing: SRR16937144 
+Sample 1 - 32620 reads in 8032 unique sequences.
+Processing: SRR16937145 
+Sample 1 - 50170 reads in 11773 unique sequences.
+Processing: SRR16937146 
+Sample 1 - 150347 reads in 30966 unique sequences.
+Processing: SRR16937147 
+Sample 1 - 123384 reads in 31340 unique sequences.
+Processing: SRR16937148 
+Sample 1 - 121021 reads in 38187 unique sequences.
+Processing: SRR16937149 
+Sample 1 - 117884 reads in 30683 unique sequences.
+Processing: SRR16937150 
+Sample 1 - 59711 reads in 15000 unique sequences.
+Processing: SRR16937151 
+Sample 1 - 46313 reads in 11552 unique sequences.
+Processing: SRR16937152 
+Sample 1 - 96398 reads in 21200 unique sequences.
+Processing: SRR16937153 
+Sample 1 - 147609 reads in 30885 unique sequences.
+Processing: SRR16937154 
+Sample 1 - 95902 reads in 21470 unique sequences.
+Processing: SRR16937155 
+Sample 1 - 106534 reads in 16396 unique sequences.
+Processing: SRR16937156 
+Sample 1 - 59029 reads in 14428 unique sequences.
+Processing: SRR16937157 
+Sample 1 - 95054 reads in 17914 unique sequences.
+Processing: SRR16937158 
+Sample 1 - 121594 reads in 22153 unique sequences.
+Processing: SRR16937159 
+Sample 1 - 62452 reads in 11868 unique sequences.
+Processing: SRR16937160 
+Sample 1 - 24284 reads in 6974 unique sequences.
+Processing: SRR16937161 
+Sample 1 - 45090 reads in 13513 unique sequences.
+Processing: SRR16937163 
+Sample 1 - 107578 reads in 20389 unique sequences.
+Processing: SRR16937164 
+Sample 1 - 124526 reads in 21710 unique sequences.
+Processing: SRR16937165 
+Sample 1 - 59730 reads in 9945 unique sequences.
+Processing: SRR16937166 
+Sample 1 - 68481 reads in 10205 unique sequences.
+Processing: SRR16937167 
+Sample 1 - 33163 reads in 6389 unique sequences.
+Processing: SRR16937168 
+Sample 1 - 98811 reads in 22028 unique sequences.
+Processing: SRR16937169 
+Sample 1 - 136522 reads in 25567 unique sequences.
+Processing: SRR16937170 
+Sample 1 - 48459 reads in 11470 unique sequences.
+Processing: SRR16937171 
+Sample 1 - 48548 reads in 11179 unique sequences.
+Processing: SRR16937172 
+Sample 1 - 38767 reads in 9603 unique sequences.
+Processing: SRR16937173 
+Sample 1 - 33897 reads in 8967 unique sequences.
+Processing: SRR16937174 
+Sample 1 - 50749 reads in 12687 unique sequences.
+Processing: SRR16937175 
+Sample 1 - 144994 reads in 31474 unique sequences.
+Processing: SRR16937176 
+Sample 1 - 126088 reads in 22237 unique sequences.
+Processing: SRR16937177 
+Sample 1 - 47662 reads in 12015 unique sequences.
+Processing: SRR16937178 
+Sample 1 - 28506 reads in 7863 unique sequences.
+Processing: SRR16937179 
+Sample 1 - 42784 reads in 9874 unique sequences.
+Processing: SRR16937180 
+Sample 1 - 127274 reads in 28827 unique sequences.
+Processing: SRR16937181 
+Sample 1 - 146005 reads in 26973 unique sequences.
+Processing: SRR16937182 
+Sample 1 - 61155 reads in 11267 unique sequences.
+Processing: SRR16937183 
+Sample 1 - 46373 reads in 9250 unique sequences.
+Processing: SRR16937184 
+Sample 1 - 30371 reads in 10811 unique sequences.
+Processing: SRR16937185 
+Sample 1 - 22449 reads in 5277 unique sequences.
+Processing: SRR16937186 
+Sample 1 - 86877 reads in 19013 unique sequences.
+Processing: SRR16937187 
+Sample 1 - 85945 reads in 23760 unique sequences.
+Processing: SRR16937188 
+Sample 1 - 58342 reads in 14183 unique sequences.
+Processing: SRR16937189 
+Sample 1 - 49855 reads in 12974 unique sequences.
+Processing: SRR16937190 
+Sample 1 - 47729 reads in 12274 unique sequences.
+Processing: SRR16937191 
+Sample 1 - 123931 reads in 22344 unique sequences.
+Processing: SRR16937192 
+Sample 1 - 90311 reads in 23940 unique sequences.
+Processing: SRR16937193 
+Sample 1 - 129465 reads in 25629 unique sequences.
+Processing: SRR16937194 
+Sample 1 - 91157 reads in 20711 unique sequences.
+Processing: SRR16937195 
+Sample 1 - 27464 reads in 6048 unique sequences.
+Processing: SRR16937196 
+Sample 1 - 66767 reads in 12176 unique sequences.
+Processing: SRR16937197 
+Sample 1 - 80355 reads in 17872 unique sequences.
+Processing: SRR16937198 
+Sample 1 - 176097 reads in 39757 unique sequences.
+Processing: SRR16937199 
+Sample 1 - 110312 reads in 22486 unique sequences.
+Processing: SRR16937200 
+Sample 1 - 54655 reads in 13452 unique sequences.
+Processing: SRR16937201 
+Sample 1 - 75712 reads in 16626 unique sequences.
+Processing: SRR16937202 
+Sample 1 - 15899 reads in 3504 unique sequences.
+Processing: SRR16937203 
+Sample 1 - 103266 reads in 20799 unique sequences.
+Processing: SRR16937204 
+Sample 1 - 119508 reads in 22852 unique sequences.
+Processing: SRR16937205 
+Sample 1 - 87368 reads in 17578 unique sequences.
+Processing: SRR16937206 
+Sample 1 - 47578 reads in 11569 unique sequences.
+Processing: SRR16937207 
+Sample 1 - 72550 reads in 14961 unique sequences.
+Processing: SRR16937208 
+Sample 1 - 73728 reads in 18628 unique sequences.
+Processing: SRR16937209 
+Sample 1 - 131125 reads in 31450 unique sequences.
+Processing: SRR16937210 
+Sample 1 - 108399 reads in 27479 unique sequences.
+Processing: SRR16937211 
+Sample 1 - 76278 reads in 19036 unique sequences.
+Processing: SRR16937212 
+Sample 1 - 65047 reads in 17169 unique sequences.
+Processing: SRR16937213 
+Sample 1 - 72773 reads in 14473 unique sequences.
+Processing: SRR16937214 
+Sample 1 - 133546 reads in 26853 unique sequences.
+Processing: SRR16937215 
+Sample 1 - 44353 reads in 9743 unique sequences.
+Processing: SRR16937216 
+Sample 1 - 30194 reads in 8585 unique sequences.
+Processing: SRR16937217 
+Sample 1 - 48458 reads in 12085 unique sequences.
+Processing: SRR16937218 
+Sample 1 - 70842 reads in 12436 unique sequences.
+Processing: SRR16937219 
+Sample 1 - 62772 reads in 14365 unique sequences.
+Processing: SRR16937220 
+Sample 1 - 59060 reads in 13764 unique sequences.
+Processing: SRR16937221 
+Sample 1 - 63183 reads in 11555 unique sequences.
+Processing: SRR16937222 
+Sample 1 - 71738 reads in 15600 unique sequences.
+Processing: SRR16937223 
+Sample 1 - 58456 reads in 12172 unique sequences.
+Processing: SRR16937224 
+Sample 1 - 55780 reads in 19539 unique sequences.
+Processing: SRR16937225 
+Sample 1 - 77387 reads in 19703 unique sequences.
+Processing: SRR16937226 
+Sample 1 - 61981 reads in 17611 unique sequences.
+Processing: SRR16937227 
+Sample 1 - 43492 reads in 11243 unique sequences.
+Processing: SRR16937228 
+Sample 1 - 47713 reads in 12432 unique sequences.
+Processing: SRR16937229 
+Sample 1 - 60863 reads in 14384 unique sequences.
+Processing: SRR16937230 
+Sample 1 - 25227 reads in 9414 unique sequences.
+Processing: SRR16937231 
+Sample 1 - 61653 reads in 18507 unique sequences.
+Processing: SRR16937232 
+Sample 1 - 95149 reads in 26410 unique sequences.
+Processing: SRR16937233 
+Sample 1 - 66924 reads in 16406 unique sequences.
+Processing: SRR16937234 
+Sample 1 - 64225 reads in 15690 unique sequences.
+Processing: SRR16937235 
+Sample 1 - 49670 reads in 16029 unique sequences.
+Processing: SRR16937236 
+Sample 1 - 83466 reads in 19581 unique sequences.
+Processing: SRR16937237 
+Sample 1 - 122485 reads in 26295 unique sequences.
+Processing: SRR16937238 
+Sample 1 - 73648 reads in 15592 unique sequences.
+Processing: SRR16937239 
+Sample 1 - 51045 reads in 9517 unique sequences.
+Processing: SRR16937240 
+Sample 1 - 56010 reads in 12694 unique sequences.
+Processing: SRR16937241 
+Sample 1 - 58240 reads in 18980 unique sequences.
+Processing: SRR16937242 
+Sample 1 - 61276 reads in 19982 unique sequences.
+Processing: SRR16937243 
+Sample 1 - 23279 reads in 8112 unique sequences.
+Processing: SRR16937244 
+Sample 1 - 54799 reads in 16153 unique sequences.
+Processing: SRR16937245 
+Sample 1 - 95894 reads in 25180 unique sequences.
+Processing: SRR16937246 
+Sample 1 - 52950 reads in 18523 unique sequences.
+Processing: SRR16937247 
+Sample 1 - 24739 reads in 9090 unique sequences.
+Processing: SRR16937248 
+Sample 1 - 35632 reads in 12289 unique sequences.
+Processing: SRR16937249 
+Sample 1 - 78930 reads in 19277 unique sequences.
+Processing: SRR16937250 
+Sample 1 - 35894 reads in 12508 unique sequences.
+Processing: SRR16937251 
+Sample 1 - 101280 reads in 22159 unique sequences.
+Processing: SRR16937252 
+Sample 1 - 42530 reads in 15841 unique sequences.
+Processing: SRR16937253 
+Sample 1 - 56631 reads in 16999 unique sequences.
+Processing: SRR16937254 
+Sample 1 - 54245 reads in 18035 unique sequences.
+Processing: SRR16937255 
+Sample 1 - 150330 reads in 31059 unique sequences.
+Processing: SRR16937256 
+Sample 1 - 48205 reads in 12788 unique sequences.
+Processing: SRR16937257 
+Sample 1 - 50958 reads in 12585 unique sequences.
+Processing: SRR16937258 
+Sample 1 - 47060 reads in 14276 unique sequences.
+Processing: SRR16937259 
+Sample 1 - 48325 reads in 15965 unique sequences.
+Processing: SRR16937260 
+Sample 1 - 98409 reads in 19129 unique sequences.
+Processing: SRR16937261 
+Sample 1 - 54029 reads in 15843 unique sequences.
+Processing: SRR16937262 
+Sample 1 - 72029 reads in 14843 unique sequences.
+Processing: SRR16937263 
+Sample 1 - 49156 reads in 14892 unique sequences.
+Processing: SRR16937264 
+Sample 1 - 27484 reads in 8117 unique sequences.
+Processing: SRR16937265 
+Sample 1 - 239383 reads in 36533 unique sequences.
+Processing: SRR16937266 
+Sample 1 - 65468 reads in 13429 unique sequences.
+Processing: SRR16937267 
+Sample 1 - 57940 reads in 13304 unique sequences.
+Processing: SRR16937268 
+Sample 1 - 29252 reads in 10186 unique sequences.
+Processing: SRR16937269 
+Sample 1 - 44515 reads in 13647 unique sequences.
+Processing: SRR16937270 
+Sample 1 - 42701 reads in 14202 unique sequences.
+Processing: SRR16937271 
+Sample 1 - 72836 reads in 18413 unique sequences.
+Processing: SRR16937272 
+Sample 1 - 79866 reads in 20267 unique sequences.
+Processing: SRR16937273 
+Sample 1 - 112636 reads in 30455 unique sequences.
+Processing: SRR16937274 
+Sample 1 - 46564 reads in 13254 unique sequences.
+Processing: SRR16937275 
+Sample 1 - 63080 reads in 17108 unique sequences.
+Processing: SRR16937276 
+Sample 1 - 52970 reads in 15979 unique sequences.
+Processing: SRR16937277 
+Sample 1 - 54010 reads in 15264 unique sequences.
+Processing: SRR16937278 
+Sample 1 - 13880 reads in 4638 unique sequences.
+Processing: SRR16937279 
+Sample 1 - 69290 reads in 16559 unique sequences.
+Processing: SRR16937280 
+Sample 1 - 51560 reads in 12998 unique sequences.
+Processing: SRR16937281 
+Sample 1 - 40059 reads in 7665 unique sequences.
+Processing: SRR16937282 
+Sample 1 - 36396 reads in 9430 unique sequences.
+Processing: SRR16937283 
+Sample 1 - 23152 reads in 7131 unique sequences.
+Processing: SRR16937284 
+Sample 1 - 37211 reads in 10108 unique sequences.
+Processing: SRR16937285 
+Sample 1 - 33607 reads in 9502 unique sequences.
+[1] "Fri Oct 24 10:01:47 2025 Removed 0 ASVs for being too short."
+[1] "Fri Oct 24 10:01:47 2025 Removing bimeras..."
+[1] "Fri Oct 24 10:02:39 2025 Writing ASV table..."
+[1] "Fri Oct 24 10:02:40 2025 ASVs recorded."
+[1] "Fri Oct 24 10:02:40 2025 Writing output files..."
+[1] "Calculating summary stats..."
+[1] "Fri Oct 24 10:02:40 2025 Writing summary output..."
+[1] "Fri Oct 24 10:02:40 2025 DONE!!!"

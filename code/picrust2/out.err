@@ -1,0 +1,167 @@
+3603 of 3603 sequence ids overlap between input table and FASTA.
+
+3603 ASVs in the input FASTA. None of the sequence ids are duplicated.
+
+Placing sequences onto reference tree
+place_seqs.py --study_fasta /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/projects/feces_seq_16S.fasta --ref_dir /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/bac_ref --out_tree /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac.tre --processes 28 --intermediate /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac --min_align 0.8 --chunk_size 5000 --placement_tool epa-ng --verbose
+hmmalign --trim --dna --mapali /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/bac_ref/bac_ref.fna --informat FASTA -o /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/query_align.stockholm /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/bac_ref/bac_ref.hmm /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/projects/feces_seq_16S.fasta
+
+Warning - 19 input sequences aligned poorly to reference sequences (--min_align option specified a minimum proportion of 0.8 aligning to reference sequences). These input sequences will not be placed and will be excluded from downstream steps.
+
+This is the set of poorly aligned input sequences to be excluded: G000184945, GEFP01046751.99.1466, G000407245, RS-GCF-013293565.1-NZ-JAAKAJ010000083.1, G002408565, G001801345, G000210555, RS-GCF-003851945.2-NZ-BHZJ02000640.1, G001821375, G001466305, RS-GCF-013293225.1-NZ-JAAJZT010000042.1, GDAH01000940.1244.2455, G001915615, G000999385, G000998145, RS-GCF-013293555.1-NZ-JAAKAH010000018.1, G001735895, G003518045, RS-GCF-009678385.1-NZ-WKLW01000031.1
+
+Raw input sequences ranged in length from 476 to 3446
+
+epa-ng --tree /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/bac_ref/bac_ref.tre --ref-msa /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/ref_seqs_hmmalign.fasta --query /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/study_seqs_hmmalign.fasta --chunk-size 5000 -T 28 -m /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/bac_ref/bac_ref.model -w /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/epa_out --filter-acc-lwr 0.99 --filter-max 100
+
+gappa examine graft --jplace-path /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/epa_out/epa_result_parsed.jplace --fully-resolve --out-dir /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/epa_out
+
+mv /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_bac/epa_out/epa_result_parsed.newick /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac.tre
+
+Finished placing sequences on output tree for reference 1: /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac.tre
+place_seqs.py --study_fasta /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/projects/feces_seq_16S.fasta --ref_dir /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/archaea/arc_ref --out_tree /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc.tre --processes 28 --intermediate /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc --min_align 0.8 --chunk_size 5000 --placement_tool epa-ng --verbose
+hmmalign --trim --dna --mapali /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/archaea/arc_ref/arc_ref.fna --informat FASTA -o /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/query_align.stockholm /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/archaea/arc_ref/arc_ref.hmm /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/projects/feces_seq_16S.fasta
+
+Warning - 19 input sequences aligned poorly to reference sequences (--min_align option specified a minimum proportion of 0.8 aligning to reference sequences). These input sequences will not be placed and will be excluded from downstream steps.
+
+This is the set of poorly aligned input sequences to be excluded: G001801345, G003518045, RS-GCF-013293555.1-NZ-JAAKAH010000018.1, RS-GCF-013293565.1-NZ-JAAKAJ010000083.1, G000210555, RS-GCF-003851945.2-NZ-BHZJ02000640.1, G000999385, RS-GCF-013293225.1-NZ-JAAJZT010000042.1, G001735895, G000998145, G001466305, RS-GCF-009678385.1-NZ-WKLW01000031.1, G000184945, G000407245, G001915615, G001821375, G002408565, GDAH01000940.1244.2455, GEFP01046751.99.1466
+
+Raw input sequences ranged in length from 476 to 3446
+
+epa-ng --tree /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/archaea/arc_ref/arc_ref.tre --ref-msa /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/ref_seqs_hmmalign.fasta --query /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/study_seqs_hmmalign.fasta --chunk-size 5000 -T 28 -m /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/archaea/arc_ref/arc_ref.model -w /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/epa_out --filter-acc-lwr 0.99 --filter-max 100
+
+gappa examine graft --jplace-path /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/epa_out/epa_result_parsed.jplace --fully-resolve --out-dir /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/epa_out
+
+mv /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/intermediate/place_seqs_arc/epa_out/epa_result_parsed.newick /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc.tre
+
+Finished placing sequences on output tree for reference 2: /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc.tre
+hsp.py --tree /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac.tre --output /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_marker_predicted_and_nsti.tsv.gz --observed_trait_table /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/16S.txt.gz --hsp_method mp --edge_exponent 0.5 --seed 100 --calculate_NSTI --processes 1 --verbose
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_nsti.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac.tre /home/dongbiao/tmp/tmp7b005yig/known_tips.txt /home/dongbiao/tmp/tmp7b005yig/nsti_out.txt
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac.tre /home/dongbiao/tmp/tmpz2ocse71/subset_tab_0 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpf0k65v_e/predicted_counts.txt /home/dongbiao/tmp/tmpf0k65v_e/predicted_ci.txt 100
+
+
+hsp.py --tree /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc.tre --output /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc_marker_predicted_and_nsti.tsv.gz --observed_trait_table /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/archaea/16S.txt.gz --hsp_method mp --edge_exponent 0.5 --seed 100 --calculate_NSTI --processes 1 --verbose
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_nsti.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc.tre /home/dongbiao/tmp/tmpbe9t1mlr/known_tips.txt /home/dongbiao/tmp/tmpbe9t1mlr/nsti_out.txt
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc.tre /home/dongbiao/tmp/tmpfar2z1lx/subset_tab_0 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp1vlsdq1_/predicted_counts.txt /home/dongbiao/tmp/tmp1vlsdq1_/predicted_ci.txt 100
+
+
+Finished getting marker and NSTI predictions for both domains: /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_marker_predicted_and_nsti.tsv.gz, /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/arc_marker_predicted_and_nsti.tsv.gz
+Now finding the best one for each sequence.
+Picking the best domains for all sequences.
+3578 sequences were kept for bac
+6 sequences were kept for arc
+Finished getting the best domain match for each sequence: /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/combined_marker_predicted_and_nsti.tsv.gz Now running hsp.py for the reduced reference sets.
+hsp.py --tree /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre --output /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_GO_predicted.tsv.gz --observed_trait_table /home/yemai/picrust2/picrust2-2.6.2/picrust2/default_files/bacteria/go.txt.gz --hsp_method mp --edge_exponent 0.5 --seed 100 --processes 28 --verbose
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_4 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpolppecmn/predicted_counts.txt /home/dongbiao/tmp/tmpolppecmn/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_5 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpxa4et7dg/predicted_counts.txt /home/dongbiao/tmp/tmpxa4et7dg/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_21 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp6m3rqls9/predicted_counts.txt /home/dongbiao/tmp/tmp6m3rqls9/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_22 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpouad7itr/predicted_counts.txt /home/dongbiao/tmp/tmpouad7itr/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_2 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpy2n99qd0/predicted_counts.txt /home/dongbiao/tmp/tmpy2n99qd0/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_8 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp1i980qwb/predicted_counts.txt /home/dongbiao/tmp/tmp1i980qwb/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_17 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpjaxxucr9/predicted_counts.txt /home/dongbiao/tmp/tmpjaxxucr9/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_27 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpp6p7gsdj/predicted_counts.txt /home/dongbiao/tmp/tmpp6p7gsdj/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_6 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpapkloj3e/predicted_counts.txt /home/dongbiao/tmp/tmpapkloj3e/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_20 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmprbu0qk1p/predicted_counts.txt /home/dongbiao/tmp/tmprbu0qk1p/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_16 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp6cgr1448/predicted_counts.txt /home/dongbiao/tmp/tmp6cgr1448/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_15 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpfk2v23no/predicted_counts.txt /home/dongbiao/tmp/tmpfk2v23no/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_18 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp8t7cvldd/predicted_counts.txt /home/dongbiao/tmp/tmp8t7cvldd/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_10 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp5e_1_d1p/predicted_counts.txt /home/dongbiao/tmp/tmp5e_1_d1p/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_1 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp91nhmp44/predicted_counts.txt /home/dongbiao/tmp/tmp91nhmp44/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_25 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp32_u3bb3/predicted_counts.txt /home/dongbiao/tmp/tmp32_u3bb3/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_24 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpf35owv6i/predicted_counts.txt /home/dongbiao/tmp/tmpf35owv6i/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_13 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpo8l35jgk/predicted_counts.txt /home/dongbiao/tmp/tmpo8l35jgk/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_11 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpdh0ckcwq/predicted_counts.txt /home/dongbiao/tmp/tmpdh0ckcwq/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_0 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpzeqwfru3/predicted_counts.txt /home/dongbiao/tmp/tmpzeqwfru3/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_23 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpg94lhvh6/predicted_counts.txt /home/dongbiao/tmp/tmpg94lhvh6/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_12 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpcmiukokr/predicted_counts.txt /home/dongbiao/tmp/tmpcmiukokr/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_7 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpe6iilcuq/predicted_counts.txt /home/dongbiao/tmp/tmpe6iilcuq/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_14 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp7r6sil0n/predicted_counts.txt /home/dongbiao/tmp/tmp7r6sil0n/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_26 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpmr38e4fk/predicted_counts.txt /home/dongbiao/tmp/tmpmr38e4fk/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_3 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp6u88bv_y/predicted_counts.txt /home/dongbiao/tmp/tmp6u88bv_y/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_19 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmprwjoc9qa/predicted_counts.txt /home/dongbiao/tmp/tmprwjoc9qa/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_9 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp_l_vh8ob/predicted_counts.txt /home/dongbiao/tmp/tmp_l_vh8ob/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_28 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmplihv79vv/predicted_counts.txt /home/dongbiao/tmp/tmplihv79vv/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_29 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp3_web5td/predicted_counts.txt /home/dongbiao/tmp/tmp3_web5td/predicted_ci.txt 100
+
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_30 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpkh768n_4/predicted_counts.txt /home/dongbiao/tmp/tmpkh768n_4/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_31 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp0pvqlq5m/predicted_counts.txt /home/dongbiao/tmp/tmp0pvqlq5m/predicted_ci.txt 100
+
+
+
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_32 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpxpioyhuf/predicted_counts.txt /home/dongbiao/tmp/tmpxpioyhuf/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_33 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp9_328wx7/predicted_counts.txt /home/dongbiao/tmp/tmp9_328wx7/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_34 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp5ek86s7d/predicted_counts.txt /home/dongbiao/tmp/tmp5ek86s7d/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_35 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp3p1x4ecp/predicted_counts.txt /home/dongbiao/tmp/tmp3p1x4ecp/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_36 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp7jt389bn/predicted_counts.txt /home/dongbiao/tmp/tmp7jt389bn/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_37 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpg1bzkdk8/predicted_counts.txt /home/dongbiao/tmp/tmpg1bzkdk8/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_38 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp1illx3nj/predicted_counts.txt /home/dongbiao/tmp/tmp1illx3nj/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_39 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp7kg9ywee/predicted_counts.txt /home/dongbiao/tmp/tmp7kg9ywee/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_40 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmp4zcdwt6e/predicted_counts.txt /home/dongbiao/tmp/tmp4zcdwt6e/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_41 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpqnldy0p8/predicted_counts.txt /home/dongbiao/tmp/tmpqnldy0p8/predicted_ci.txt 100
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_42 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpi9y33bsq/predicted_counts.txt /home/dongbiao/tmp/tmpi9y33bsq/predicted_ci.txt 100
+
+
+
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_43 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpdgqqq9il/predicted_counts.txt /home/dongbiao/tmp/tmpdgqqq9il/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_44 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmpv28lyhtd/predicted_counts.txt /home/dongbiao/tmp/tmpv28lyhtd/predicted_ci.txt 100
+Rscript /home/yemai/picrust2/picrust2-2.6.2/picrust2/Rscripts/castor_hsp.R /home/dongbiao/word_embedding_microbiome/programe_test/dietary_fber/data/picrust2/bac_reduced.tre /home/dongbiao/tmp/tmpl9usln3y/subset_tab_45 mp 0.5 FALSE FALSE /home/dongbiao/tmp/tmprk17z1go/predicted_counts.txt /home/dongbiao/tmp/tmprk17z1go/predicted_ci.txt 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "/home/software/anaconda3/envs/picrust2/bin/picrust2_pipeline.py", line 312, in <module>
+    main()
+  File "/home/software/anaconda3/envs/picrust2/bin/picrust2_pipeline.py", line 272, in main
+    func_outfiles, pathway_outfiles = full_pipeline_split(study_fasta=args.study_fasta,
+  File "/home/yemai/picrust2/picrust2-2.6.2/picrust2/pipeline.py", line 343, in full_pipeline_split
+    system_call_check(hsp_cmd, print_command=verbose,
+  File "/home/yemai/picrust2/picrust2-2.6.2/picrust2/util.py", line 268, in system_call_check
+    with TemporaryDirectory() as temp_dir:
+  File "/home/yemai/picrust2/picrust2-2.6.2/picrust2/util.py", line 908, in __exit__
+    self.cleanup()
+  File "/home/yemai/picrust2/picrust2-2.6.2/picrust2/util.py", line 917, in cleanup
+    _shutil.rmtree(self.name)
+  File "/home/software/anaconda3/envs/picrust2/lib/python3.10/shutil.py", line 731, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/home/software/anaconda3/envs/picrust2/lib/python3.10/shutil.py", line 729, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/home/dongbiao/tmp/tmp5j3qbege'

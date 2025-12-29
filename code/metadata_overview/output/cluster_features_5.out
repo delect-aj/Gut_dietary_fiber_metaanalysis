@@ -1,0 +1,6 @@
+Imported ../../data/projects/PRJNA385004/results/ASVs.fa as DNASequencesDirectoryFormat to ../../data/projects/PRJNA385004/results/rep-seqs.qza
+Imported ../../data/projects/PRJNA385004/results/ASVs_counts.biom as BIOMV210Format to ../../data/projects/PRJNA385004/results/table.qza
+Saved FeatureTable[Frequency] to: ../../data/projects/PRJNA385004/results/clustered-table.qza
+Saved FeatureData[Sequence] to: ../../data/projects/PRJNA385004/results/clustered-sequences.qza
+Saved FeatureData[Sequence] to: ../../data/projects/PRJNA385004/results/unmatched-sequences.qza
+Exported ../../data/projects/PRJNA385004/results/clustered-table.qza as BIOMV210DirFmt to directory ../../data/projects/PRJNA385004/results/extracted-feature-table

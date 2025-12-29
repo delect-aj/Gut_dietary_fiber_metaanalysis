@@ -1,0 +1,253 @@
+[1] ‘1.16.0’
+[1] "Fri Oct 24 09:43:10 2025 Filtering..."
+[1] "Fri Oct 24 09:43:56 2025 Building forward error model..."
+101183166 total bases in 803041 reads from 27 samples will be used for learning the error rates.
+[1] "Fri Oct 24 09:46:18 2025 Plotting error models..."
+null device 
+          1 
+Processing: ERR4856123 
+Sample 1 - 40924 reads in 23721 unique sequences.
+Processing: ERR4856124 
+Sample 1 - 14909 reads in 7918 unique sequences.
+Processing: ERR4856125 
+Sample 1 - 6486 reads in 3519 unique sequences.
+Processing: ERR4856126 
+Sample 1 - 7541 reads in 3741 unique sequences.
+Processing: ERR4856127 
+Sample 1 - 22470 reads in 13920 unique sequences.
+Processing: ERR4856128 
+Sample 1 - 29387 reads in 14653 unique sequences.
+Processing: ERR4856129 
+Sample 1 - 21705 reads in 10268 unique sequences.
+Processing: ERR4856130 
+Sample 1 - 12240 reads in 6759 unique sequences.
+Processing: ERR4856131 
+Sample 1 - 12419 reads in 7578 unique sequences.
+Processing: ERR4856132 
+Sample 1 - 27158 reads in 11254 unique sequences.
+Processing: ERR4856133 
+Sample 1 - 48227 reads in 21208 unique sequences.
+Processing: ERR4856134 
+Sample 1 - 69118 reads in 34309 unique sequences.
+Processing: ERR4856135 
+Sample 1 - 30884 reads in 13908 unique sequences.
+Processing: ERR4856136 
+Sample 1 - 37771 reads in 17906 unique sequences.
+Processing: ERR4856137 
+Sample 1 - 36559 reads in 16476 unique sequences.
+Processing: ERR4856138 
+Sample 1 - 41908 reads in 19200 unique sequences.
+Processing: ERR4856139 
+Sample 1 - 33535 reads in 16899 unique sequences.
+Processing: ERR4856140 
+Sample 1 - 18534 reads in 9734 unique sequences.
+Processing: ERR4856141 
+Sample 1 - 29046 reads in 13303 unique sequences.
+Processing: ERR4856142 
+Sample 1 - 16302 reads in 10381 unique sequences.
+Processing: ERR4856143 
+Sample 1 - 41944 reads in 21625 unique sequences.
+Processing: ERR4856144 
+Sample 1 - 36057 reads in 16585 unique sequences.
+Processing: ERR4856145 
+Sample 1 - 39685 reads in 18179 unique sequences.
+Processing: ERR4856146 
+Sample 1 - 28952 reads in 15805 unique sequences.
+Processing: ERR4856147 
+Sample 1 - 25112 reads in 13830 unique sequences.
+Processing: ERR4856148 
+Sample 1 - 46608 reads in 17824 unique sequences.
+Processing: ERR4856149 
+Sample 1 - 27560 reads in 13961 unique sequences.
+Processing: ERR4856150 
+Sample 1 - 27917 reads in 12645 unique sequences.
+Processing: ERR4856151 
+Sample 1 - 36736 reads in 17274 unique sequences.
+Processing: ERR4856152 
+Sample 1 - 54877 reads in 25609 unique sequences.
+Processing: ERR4856153 
+Sample 1 - 40688 reads in 15901 unique sequences.
+Processing: ERR4856154 
+Sample 1 - 24601 reads in 9999 unique sequences.
+Processing: ERR4856155 
+Sample 1 - 25411 reads in 12188 unique sequences.
+Processing: ERR4856156 
+Sample 1 - 23615 reads in 12517 unique sequences.
+Processing: ERR4856157 
+Sample 1 - 18741 reads in 8798 unique sequences.
+Processing: ERR4856158 
+Sample 1 - 27142 reads in 13962 unique sequences.
+Processing: ERR4856159 
+Sample 1 - 27054 reads in 12912 unique sequences.
+Processing: ERR4856160 
+Sample 1 - 14676 reads in 7646 unique sequences.
+Processing: ERR4856162 
+Sample 1 - 28411 reads in 13133 unique sequences.
+Processing: ERR4856163 
+Sample 1 - 243766 reads in 89343 unique sequences.
+Processing: ERR4856164 
+Sample 1 - 39124 reads in 16653 unique sequences.
+Processing: ERR4856165 
+Sample 1 - 29570 reads in 14530 unique sequences.
+Processing: ERR4856166 
+Sample 1 - 28821 reads in 14260 unique sequences.
+Processing: ERR4856167 
+Sample 1 - 46704 reads in 20699 unique sequences.
+Processing: ERR4856168 
+Sample 1 - 19054 reads in 7407 unique sequences.
+Processing: ERR4856169 
+Sample 1 - 30663 reads in 13470 unique sequences.
+Processing: ERR4856170 
+Sample 1 - 25254 reads in 10769 unique sequences.
+Processing: ERR4856171 
+Sample 1 - 28155 reads in 14254 unique sequences.
+Processing: ERR4856172 
+Sample 1 - 46619 reads in 17731 unique sequences.
+Processing: ERR4856173 
+Sample 1 - 37929 reads in 17621 unique sequences.
+Processing: ERR4856174 
+Sample 1 - 29554 reads in 13415 unique sequences.
+Processing: ERR4856175 
+Sample 1 - 31127 reads in 15779 unique sequences.
+Processing: ERR4856176 
+Sample 1 - 37628 reads in 15290 unique sequences.
+Processing: ERR4856177 
+Sample 1 - 40345 reads in 18806 unique sequences.
+Processing: ERR4856178 
+Sample 1 - 29712 reads in 14623 unique sequences.
+Processing: ERR4856179 
+Sample 1 - 36910 reads in 17643 unique sequences.
+Processing: ERR4856180 
+Sample 1 - 26472 reads in 10052 unique sequences.
+Processing: ERR4856181 
+Sample 1 - 38797 reads in 13386 unique sequences.
+Processing: ERR4856182 
+Sample 1 - 18689 reads in 7509 unique sequences.
+Processing: ERR4856183 
+Sample 1 - 25219 reads in 13071 unique sequences.
+Processing: ERR4856184 
+Sample 1 - 83386 reads in 42447 unique sequences.
+Processing: ERR4856185 
+Sample 1 - 45333 reads in 19409 unique sequences.
+Processing: ERR4856186 
+Sample 1 - 66689 reads in 23353 unique sequences.
+Processing: ERR4856187 
+Sample 1 - 30035 reads in 14028 unique sequences.
+Processing: ERR4856188 
+Sample 1 - 46842 reads in 21250 unique sequences.
+Processing: ERR4856189 
+Sample 1 - 59169 reads in 26265 unique sequences.
+Processing: ERR4856190 
+Sample 1 - 50285 reads in 17463 unique sequences.
+Processing: ERR4856191 
+Sample 1 - 81797 reads in 34058 unique sequences.
+Processing: ERR4856192 
+Sample 1 - 56023 reads in 20734 unique sequences.
+Processing: ERR4856193 
+Sample 1 - 27190 reads in 11910 unique sequences.
+Processing: ERR4856194 
+Sample 1 - 58299 reads in 28458 unique sequences.
+Processing: ERR4856195 
+Sample 1 - 19449 reads in 9690 unique sequences.
+Processing: ERR4856196 
+Sample 1 - 26178 reads in 12787 unique sequences.
+Processing: ERR4856197 
+Sample 1 - 10126 reads in 5110 unique sequences.
+Processing: ERR4856198 
+Sample 1 - 9307 reads in 4842 unique sequences.
+Processing: ERR4856199 
+Sample 1 - 16206 reads in 7979 unique sequences.
+Processing: ERR4856200 
+Sample 1 - 6729 reads in 3767 unique sequences.
+Processing: ERR4856201 
+Sample 1 - 15172 reads in 8609 unique sequences.
+Processing: ERR4856202 
+Sample 1 - 16025 reads in 11201 unique sequences.
+Processing: ERR4856203 
+Sample 1 - 23494 reads in 15867 unique sequences.
+Processing: ERR4856204 
+Sample 1 - 18144 reads in 11084 unique sequences.
+Processing: ERR4856205 
+Sample 1 - 8542 reads in 4931 unique sequences.
+Processing: ERR4856206 
+Sample 1 - 10100 reads in 4910 unique sequences.
+Processing: ERR4856207 
+Sample 1 - 15891 reads in 5892 unique sequences.
+Processing: ERR4856208 
+Sample 1 - 12174 reads in 6055 unique sequences.
+Processing: ERR4856209 
+Sample 1 - 13343 reads in 5564 unique sequences.
+Processing: ERR4856210 
+Sample 1 - 14238 reads in 6244 unique sequences.
+Processing: ERR4856211 
+Sample 1 - 26505 reads in 12499 unique sequences.
+Processing: ERR4856212 
+Sample 1 - 7025 reads in 3367 unique sequences.
+Processing: ERR4856213 
+Sample 1 - 7545 reads in 3164 unique sequences.
+Processing: ERR4856214 
+Sample 1 - 9923 reads in 4992 unique sequences.
+Processing: ERR4856215 
+Sample 1 - 8751 reads in 4120 unique sequences.
+Processing: ERR4856216 
+Sample 1 - 18720 reads in 8591 unique sequences.
+Processing: ERR4856217 
+Sample 1 - 6194 reads in 3463 unique sequences.
+Processing: ERR4856218 
+Sample 1 - 12514 reads in 8219 unique sequences.
+Processing: ERR4856219 
+Sample 1 - 12209 reads in 7391 unique sequences.
+Processing: ERR4856220 
+Sample 1 - 12736 reads in 5590 unique sequences.
+Processing: ERR4856221 
+Sample 1 - 6980 reads in 3716 unique sequences.
+Processing: ERR4856222 
+Sample 1 - 8939 reads in 4366 unique sequences.
+Processing: ERR4856223 
+Sample 1 - 22286 reads in 10157 unique sequences.
+Processing: ERR4856224 
+Sample 1 - 19622 reads in 8837 unique sequences.
+Processing: ERR4856225 
+Sample 1 - 26134 reads in 11035 unique sequences.
+Processing: ERR4856226 
+Sample 1 - 29266 reads in 13064 unique sequences.
+Processing: ERR4856227 
+Sample 1 - 16357 reads in 6795 unique sequences.
+Processing: ERR4856228 
+Sample 1 - 15266 reads in 7182 unique sequences.
+Processing: ERR4856229 
+Sample 1 - 22755 reads in 8916 unique sequences.
+Processing: ERR4856230 
+Sample 1 - 19784 reads in 8976 unique sequences.
+Processing: ERR4856231 
+Sample 1 - 39013 reads in 18405 unique sequences.
+Processing: ERR4856232 
+Sample 1 - 41384 reads in 17030 unique sequences.
+Processing: ERR4856233 
+Sample 1 - 38529 reads in 14442 unique sequences.
+Processing: ERR4856234 
+Sample 1 - 16736 reads in 8185 unique sequences.
+Processing: ERR4856235 
+Sample 1 - 35818 reads in 16187 unique sequences.
+Processing: ERR4856236 
+Sample 1 - 19476 reads in 10661 unique sequences.
+Processing: ERR4856237 
+Sample 1 - 26237 reads in 9494 unique sequences.
+Processing: ERR4856238 
+Sample 1 - 26905 reads in 12372 unique sequences.
+Processing: ERR4856239 
+Sample 1 - 32388 reads in 12670 unique sequences.
+Processing: ERR4856240 
+Sample 1 - 1052 reads in 605 unique sequences.
+Processing: ERR4856241 
+Sample 1 - 19893 reads in 6955 unique sequences.
+Processing: ERR4856242 
+Sample 1 - 24759 reads in 11959 unique sequences.
+[1] "Fri Oct 24 09:48:46 2025 Removed 0 ASVs for being too short."
+[1] "Fri Oct 24 09:48:46 2025 Removing bimeras..."
+[1] "Fri Oct 24 09:48:49 2025 Writing ASV table..."
+[1] "Fri Oct 24 09:48:49 2025 ASVs recorded."
+[1] "Fri Oct 24 09:48:49 2025 Writing output files..."
+[1] "Calculating summary stats..."
+[1] "Fri Oct 24 09:48:49 2025 Writing summary output..."
+[1] "Fri Oct 24 09:48:49 2025 DONE!!!"
